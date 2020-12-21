@@ -101,3 +101,4 @@ if __name__ == '__main__':
         print('saving...')
         with open('./output/speaker_labeled_hlm_new.json', 'w+') as out_f:
             out_f.write(json.dumps(labeled_book, ensure_ascii=False))
+
