@@ -79,9 +79,6 @@ class QA:
 
 if __name__ == '__main__':
     model = QA(model_path='./output')
-    # print(model.predict("平儿听了，都道：\n", "说下一句话的人是谁？"))
-    # print(model.predict("谁想贾母自见宝钗来了，喜他稳重和平，正值他才过第一个生辰，便自己蠲资二十两，唤了凤姐来，交与他置酒戏．宝钗凑趣笑道：\n", "说下一句话的人是谁？"))
-    # print(model.predict("鹦哥才漱了口，平儿捧着盆盥手，见他二人来了，便问：\n", "说下一句话的人是谁？"))
     with open('./data/structured_hlm_new.json') as f:
         book = json.loads(f.read())
         labeled_book = []
