@@ -17,3 +17,5 @@
 * 最后在 `classify_model_training/main.py`中提供`predict()`方法用于预测说话人
 
 BERT预训练模型获取:https://pan.baidu.com/s/1q-LbuS18Eb0M8KKThHgvbA  密码:av3o
+
+项目前端展示：http://39.106.188.179:2333/ 

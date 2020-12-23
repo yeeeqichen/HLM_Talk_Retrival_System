@@ -15,7 +15,7 @@ class Config(object):
         self.test_path = '../data/test.txt'                                  # 测试集
         with open('../data/class.json') as f:
             self.class_list = list(json.loads(f.read()).keys())
-        self.save_path = './saved_model/' + self.model_name + '.ckpt'        # 模型训练结果
+        self.save_path = '../bert_pretrain/bert.ckpt'                       # 模型训练结果
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')   # 设备
 
         self.require_improvement = 1000                                 # 若超过1000batch效果还没提升，则提前结束训练
