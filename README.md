@@ -19,3 +19,9 @@
 BERT预训练模型获取:https://pan.baidu.com/s/1q-LbuS18Eb0M8KKThHgvbA  密码:av3o
 
 项目前端展示：http://39.106.188.179:2333/ 
+
+展示截图：
+![](https://github.com/yeeeqichen/Pictures/blob/master/WechatIMG33.png?raw=true)
+![](https://github.com/yeeeqichen/Pictures/blob/master/WechatIMG30.png?raw=true)
+![](https://github.com/yeeeqichen/Pictures/blob/master/WechatIMG31.png?raw=true)
+![](https://github.com/yeeeqichen/Pictures/blob/master/WechatIMG32.png?raw=true)
